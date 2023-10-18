@@ -1,0 +1,23 @@
+site_name: Lagus Documentation
+theme:
+  name: material
+  palette:
+    scheme: slate
+  logo: assets/Lagus.svg
+  favicon: assets/Lagus.svg
+  features:
+    - navigation.indexes
+markdown_extensions:
+  - admonition
+  - toc:
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
